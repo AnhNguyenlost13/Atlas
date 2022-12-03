@@ -2,7 +2,6 @@ name: Bug report
 description: Create a bug report to help us improve Atlas
 labels: bug
 assignees: Zusier
-
 body:
 - type: markdown
   attributes:
