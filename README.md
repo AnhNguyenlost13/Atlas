@@ -11,12 +11,10 @@
   •
   <a href="https://discord.com/servers/atlas-795710270000332800" target="_blank">Discord</a>
 </p>
-<p align="center">
  Other Languages:
   
   <kbd>[<img title="简体中文" alt="简体中文" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/cn.svg" width="22">](/README_zh_CN.md)</kbd>
   <kbd>[<img title="Français" alt="Français" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/fr.svg" width="22">](/README_fr_FR.md)</kbd>
-</p>
 
 
 # What is Atlas?
