@@ -14,6 +14,8 @@
 <p align="center">
  Other Languages:
   <a href="https://github.com/Atlas-OS/Atlas/blob/main/README_zh_CN.md">简体中文</a> <a href="https://github.com/Atlas-OS/Atlas/blob/main/README_fr_FR.md">Français</a>
+  <kbd>[<img title="简体中文" alt="简体中文" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/cn.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/README_zh_CN.md))</kbd>
+  <kbd>[<img title="Français" alt="Français" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/fr.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/README_fr_FR.md)</kbd>
 </p>
 
 
