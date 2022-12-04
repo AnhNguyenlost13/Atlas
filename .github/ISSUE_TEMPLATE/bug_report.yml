@@ -5,17 +5,19 @@ assignees: fikinoob
 body:
 - type: markdown
   attributes:
-    value: Not filling out this template will lead to the issue being closed
+    value: |
+      Thanks for taking the time to fill out this bug report for DuckOS! Fill out the following form to your best ability to help us fix the problem.
+      Only use this if you're absolutely sure that you found a bug and can reproduce it. For anything else, use: [our Discord server](https://dsc.gg/duckos).
 - type: textarea
   attributes:
     label: Describe the bug
-    description: A clear and concise description of what the bug is. Providing an error code is highly recommended.
+    description: A clear and concise description of what the bug is.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: To reproduce
-    description: Steps to reproduce the behavior.
+    label: To Reproduce
+    description: Steps to reproduce this behaviour
     placeholder: |
       1. Go to '...'
       2. Click on '...'
@@ -25,41 +27,45 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Expected behavior
+    label: Expected behaviour
     description: A clear and concise description of what you expected to happen.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Screenshots
-    description: If applicable, add screenshots to help explain your problem.
+    label: Screenshots / Videos
+    description: If applicable, add screenshots/videos to help explain your problem.
+- type: dropdown
+  id: vm
+  attributes:
+    label: Virtualization
+    description: Were you using a virtualized environment?
+    options:
+      - "Yes"
+      - "No"
   validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
-    label: Desktop info
-    description: Please complete the following information.
-    placeholder: |
+    label: Desktop Info
+    description: |
       - CPU [Intel or AMD, include specifics]
-      - System Drive Type
+      - System Drive Type [e.g. SSD, HDD]
+      - *(If you're using a virtualized environment, please also specify the configurations if possible.)*
   validations:
     required: true
 - type: dropdown
   id: version
   attributes:
-    label: Atlas version
-    description: What version did you reproduce this problem on?
+    label: DuckOS Version
+    description: What version of DuckOS did you replicate this bug on?
     options:
+      - 1709
       - 1803
-      - 20H2
-      - 21H2 Faceit
- - type: textarea
-   attributes:
-     label: Additional context
-     description: Add any other context about the problem here.
-   validations:
-     required: false
-
-
-
-
+      - 21H2
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional Context
+    description: Add any other context about the problem here
